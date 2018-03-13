@@ -13,6 +13,7 @@ public class OurWebSite {
 @BeforeTest
 public void OpenBrowser() {
 	driver=new FirefoxDriver();
+	driver.manage().window().maximize();
 }
 	
 @Test
