@@ -24,7 +24,7 @@ public void WebSiteTest() {
 	driver.findElement(By.name("Email")).sendKeys("anwarul46@gmail.com");
 	driver.findElement(By.name("AgEmail")).sendKeys("anwarul46@gmail.com");
 	driver.findElement(By.name("PWord")).sendKeys("1234");
-	driver.findElement(By.xpath("//input[7]")).click();
+	driver.findElement(By.xpath("//input[6]")).click();
 	driver.findElement(By.xpath(".//*[@id='fml']")).click();
 }
 	
